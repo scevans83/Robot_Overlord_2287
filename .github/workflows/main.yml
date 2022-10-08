@@ -6,14 +6,17 @@ on:
     types: [opened]
     
 jobs:
- comment: 
-  if: github.event_name == 'pull_request' || github.event_name == 'issues'
-  runs-on: ubuntu-latest
-  steps:
-      - name: Funny comments
-        uses: Marta83/funny-comment-action@v2.1
-        id: FunnyComment
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-          GIPHY_ TOKEN: ${{ secrets.GIPHY_TOKEN }}
-          comment_type: 'all' 
+  punny:
+    runs-on: ubuntu-latest
+    name: Reward PRs with a random pun
+    steps:
+    - uses: AlexLakatos/puns-dev-action@v1.3
+      id: pun
+    - uses: allthatjazzleo/actions-pull-request-add-comment@v1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        message: |
+          Thank you for submitting a PR! Here's a pun, while you wait for us to review your PR.
+
+          ${{ steps.pun.outputs.pun }}
+          ${{ steps.pun.outputs.punchline }}
