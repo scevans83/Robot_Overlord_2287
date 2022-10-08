@@ -1,0 +1,19 @@
+name: Funny comments
+
+on:
+  pull_request:
+  issues:
+    types: [opened]
+    
+jobs:
+ comment: 
+  if: github.event_name == 'pull_request' || github.event_name == 'issues'
+  runs-on: ubuntu-latest
+  steps:
+      - name: Funny comments
+        uses: Marta83/funny-comment-action@v2.1
+        id: FunnyComment
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+          GIPHY_ TOKEN: ${{ secrets.GIPHY_ TOKEN }}
+          comment_type: 'all' 
