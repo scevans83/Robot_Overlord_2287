@@ -42,9 +42,8 @@ To create your own Robot Overlord:
 <img width="595" alt="example of a tweet to @robot_2287" src="https://user-images.githubusercontent.com/60391096/197348715-5e53e6dd-e8cb-4391-8f0a-5390a8ecedb8.png">
 </kbd>
 
-<kbd>
+
 https://user-images.githubusercontent.com/60391096/197348744-107e60e2-386a-4e88-82fd-b24cda0b2dc6.mov
-</kbd>
 
 <kbd>
 <img width="594" alt="response tweet from @robot_2287" src="https://user-images.githubusercontent.com/60391096/197348673-b7a7f97c-ec9b-4c63-9b49-604124ca209b.png">
