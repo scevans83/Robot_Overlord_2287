@@ -11,11 +11,17 @@ To create your own Robot Overlord:
 3. create a file called "keys.py" in the twitterbot folder with the following structure:
 
       myid = '1094749359495888897'
+      
       CONSUMER_KEY = 'AAAAAAAAAA'
+      
       CONSUMER_SECRET = 'BBBBBBBBBBB'
+      
       ACCESS_KEY = 'CCCCCCCCCCCCC'
+      
       ACCESS_SECRET = 'DDDDDDDDDDDDD'
+      
       bearer_token = 'EEEEEEEEEEEEEE'
+
 
       Note: replace the above strings with your Robot Overlord's authentication keys from the twitter developer hub
 
