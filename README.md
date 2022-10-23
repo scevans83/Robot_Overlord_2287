@@ -38,6 +38,8 @@ To create your own Robot Overlord:
 
 ## Example:
 
+[link to tweet and response](https://twitter.com/_NodeOfRanvier_/status/1583847242964037634)
+
 <kbd>
 <img width="595" alt="example of a tweet to @robot_2287" src="https://user-images.githubusercontent.com/60391096/197348715-5e53e6dd-e8cb-4391-8f0a-5390a8ecedb8.png">
 </kbd>
