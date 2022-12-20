@@ -1,5 +1,5 @@
 # Robot_Overlord_2287
-This is a project for EC 605.
+This is a project for EC 601.
 
 The goal for this project was to create a twitter bot to provide a concise summary of twitter users' sentiments towards a given query. When a user tweets at the bot (@robot_2287) with their query, the bot collects the most recent 5000 tweets matching that query and determines whether each tweet is positive, negative, or neutral in sentiment. The bot then collates the text of all 5000 tweets into a single string, removes common and short words (i.e. is, a, the) and creates a wordcloud image of the 100 most-found words in that string. Finally, the bot responds to the initial tweet with the percent of tweets that fell into each sentiment category, and attaches the wordcloud image.
 
